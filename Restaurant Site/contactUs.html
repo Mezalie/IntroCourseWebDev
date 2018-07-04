@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <div id= "title"><!--DONT FORGET TO PUT IN NAME -->
+            <h1>Restuarant Name</h1>
+        </div>
+        
+        <div id= "navigation">
+            <hr />
+                <p>
+                    <a href="index.html" target="_blank">Home</a>   
+                    <a href="menu.html" target="_blank">Menu</a>    
+                    <a href="contactUs.html" target="_blank">Contact Us</a> 
+                </p>
+            <hr />
+        </div>
+        
+        <div id= "main">
+            <form action="submit.html" method="POST">
+                <label for="name"><strong>Name:</strong></label>    
+                <input type="text" id="name" name="name"/>
+                <br />
+                
+                <label for="email"><strong>Email:</strong></label>  
+                <input type="text" id="email" name="email"/>
+                <br />
+                
+                <label for="phone"><strong>Phone:</strong></label>  
+                <input type="text" id="phone" name="phone"/>
+                <br />
+                
+                <label for="reasonInquiry"><strong>Reason for Inquiry:</strong></label>
+                <select id="reasonInquiry" name="Reason for Inquiry">
+                    <option value="value1" checked>Catering</option>
+                    <option value="value2">Private Party</option>
+                    <option value="value3">Feedback</option>
+                    <option value="value4">Other</option>
+                </select>
+                <br />
+                
+                <label for="info"><strong>Additional Information:</strong></label>
+                <textarea id="info"></textarea>
+                <br />
+                
+                <label><strong>Have you been to the restaurant?</strong></label>
+                    <input type="radio" id="choice1" name="visited" value="no" checked/>
+                    <label for="choice1">No</label>
+                    <input type="radio" id="choice2" name="visited" value="yes"/>
+                    <label for="choice2">Yes</label>
+                 
+                <br />
+                
+                <legend><strong>Best days to contact you:</strong>
+                    <input type="checkbox" name="choices" value="m"/>M 
+                    <input type="checkbox" name="choices" value="t"/>T 
+                    <input type="checkbox" name="choices" value="w"/>W
+                    <input type="checkbox" name="choices" value="th"/>Th 
+                    <input type="checkbox" name="choices" value="f"/>F
+                </legend>
+                <br />
+                
+                <input type="submit" name="submit" value="Send Request">
+                <br />
+                <br />
+                
+            </form>
+        </div>
+    
+        <div id= "footer">
+            <hr />
+            <footer>
+                <p>1010 Riverside Rd, Jeffersonville, IN 47130<br />
+                812-808-5150</p>
+            </footer>
+        </div>
+    </body>
+
+</html>
