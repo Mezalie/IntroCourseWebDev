@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam|Pacifico');
+hr {
+    border: 5px solid;
+    padding: none;
+    color: mediumvioletred;
+}
+.header {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    background-color: #c7ff00;
+    color: lightskyblue;
+    font-size: 100px /* NOT WORKING */
+}
+
+.nav {
+    background-color: beige;
+}
+
+.nav-link:link {
+    color: lightskyblue;
+}
+
+.nav-link:visited {
+    color: #c7ff00;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    color: orange;
+}
+
+.nav-link:active {
+    color: orange; /* NOT WORKING */
+    text-decoration: none; /* Bootstrap already set this as well */
+}
+.nav-link {
+    color: lightskyblue;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: #c7ff00;
+    font-family: 'Kalam', cursive;
+    color: mediumvioletred;
+}
+
+#main {
+    background-color: lightskyblue;
+    
+}
