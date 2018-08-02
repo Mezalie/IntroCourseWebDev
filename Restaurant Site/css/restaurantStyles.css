@@ -9,11 +9,10 @@ hr {
     font-family: 'Pacifico', cursive;
     background-color: #c7ff00;
     color: lightskyblue;
-    font-size: 100px /* NOT WORKING */
 }
 
 .nav {
-    background-color: beige;
+   background-color: rgb(132, 40, 218);
 }
 
 .nav-link:link {
@@ -38,8 +37,27 @@ hr {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
 }
+.fa-home { 
+    font-size: 30px;
+}
+
+.jumbotron {
+    background-color: transparent;
+    font-family: 'Kalam', cursive;
+    color: white;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+.description {
+    color: white;
+    font-family: 'Kalam', cursive;
+}
 
 
+.carousel-caption {
+    font-family: 'Pacifico', cursive;
+}
 .footer {
     text-align: center;
     background-color: #c7ff00;
